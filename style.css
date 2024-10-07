@@ -1,0 +1,96 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('lav.png');
+    background-size: cover;
+    margin: 20px;
+    color: #4a004e;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #000000;
+}
+
+h2 {
+    color: #000000;
+    font-size: 1.8em;
+    text-decoration: underline;
+}
+
+p, li {
+    color: #4a004e;
+}
+
+p {
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+}
+
+a {
+    color: #551a8b;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+a:link {
+    color: #800080;
+}
+
+a:visited {
+    color: #4b0082;
+}
+
+a:hover {
+    color: #9932cc;
+}
+
+a:focus, a:active {
+    outline: none;
+    border-bottom: 2px solid #9932cc;
+}
+
+p.email, p.portfolio, p.linkedin {
+    color: #4a004e;
+}
+
+p.email::first-letter,
+p.portfolio::first-letter,
+p.linkedin::first-letter {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #800080;
+}
+
+/* Custom Button Styles */
+.btn-custom {
+    background-color: #4a004e; /* Dark purple */
+    border-color: #4a004e;     /* Dark purple for border */
+    color: white !important;   /* White text */
+}
+
+.btn-custom:hover {
+    background-color: #36003c; /* Darker shade on hover */
+    border-color: #36003c;     /* Darker shade on hover */
+}
+
